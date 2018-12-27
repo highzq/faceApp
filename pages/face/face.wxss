@@ -1,0 +1,7 @@
+/* pages/face/face.wxss */
+.register{
+    text-align: center;
+    color: #40a9ff;
+    font-size: 16px;
+    margin-top: 10px;    
+}

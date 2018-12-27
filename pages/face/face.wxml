@@ -1,0 +1,8 @@
+<!--pages/face/face.wxml-->
+<view>
+    <image wx:if="{{src}}" mode="widthFix" src="{{src}}" style="width: 100%; height: 500px;"></image>
+    <camera wx:if="{{!src}}" device-position="front" flash="off" binderror="error" style="width: 100%; height: 500px;"></camera>    
+    <button type="primary" bindtap="takePhoto">拍照</button>
+    
+    <view class='register' bindtap='register'>注册</view>
+</view>

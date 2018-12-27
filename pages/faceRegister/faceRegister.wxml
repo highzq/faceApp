@@ -1,0 +1,18 @@
+<!--pages/faceRegister/faceRegister.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class='form-item'>
+        <text class='form-item-title'>姓名</text>
+        <input name="name" class='form-item-input' placeholder="请输入" auto-focus/>  
+    </view>
+    <view class='form-item'>
+        <text class='form-item-title'>手机号</text>
+        <input name="phone" class='form-item-input' placeholder="请输入" auto-focus/>  
+    </view>
+    <view class='img_box'>
+        <image wx:if='{{imgUrl}}' src='{{imgUrl}}' class='img_elm'></image>
+        <button size="mini" type="default" bindtap="pickImg">选择图片</button>    
+    </view>
+    <view class='btn_box'>
+        <button formType="submit" type="primary" >确定</button>
+    </view>
+</form>

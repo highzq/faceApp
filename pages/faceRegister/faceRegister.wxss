@@ -1,0 +1,16 @@
+.img_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.img_elm{
+    /*width: 50%;*/
+    margin: 0 0 15px;
+}
+
+.btn_box{
+    padding: 15px 20px; 
+}
